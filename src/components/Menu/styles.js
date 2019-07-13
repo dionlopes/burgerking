@@ -5,8 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  height: 89vh;
-  width: 130px;
+  width: 160px;
   padding: 15px 0;
   margin-top: 50px;
 
@@ -38,7 +37,7 @@ export const MenuItem = styled(NavLink).attrs({
   margin: 15px 0px;
 
   img {
-    width: 70px;
+    width: 90px;
   }
 
   p {

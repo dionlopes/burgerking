@@ -4,5 +4,5 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
-  height: 90vh;
+  height: 100%;
 `;

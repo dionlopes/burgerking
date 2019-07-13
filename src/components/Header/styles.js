@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  height: 50px;
+  height: 70px;
   background: #fff;
 
   display: flex;
@@ -18,6 +18,7 @@ export const Logo = styled(Link)`
   }
 
   img {
-    height: 40px;
+    padding-top: 2px;
+    height: 55px;
   }
 `;

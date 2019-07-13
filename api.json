@@ -1,0 +1,68 @@
+{
+  "hamburgers": [
+    {
+      "id": 1,
+      "title": "Big King XL",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 29.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BigKing_thumb_0.png"
+    },
+    {
+      "id": 2,
+      "title": "Big King XXL",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 39.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BigKing_thumb_0.png"
+    },
+    {
+      "id": 3,
+      "title": "Mega Stacler 3.0",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 29.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Mega3_Thumb.png"
+    },
+    {
+      "id": 4,
+      "title": "WHOPPER",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 29.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Whoppercomqueijo_thumb.png"
+    },
+    {
+      "id": 5,
+      "title": "WHOPPER Furioso",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 39.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/WhopperFurioso_thumb.png"
+    },
+    {
+      "id": 6,
+      "title": "WHOPPER Duplo",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 39.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/WhopperDuplocomqueijo_thumb.png"
+    },
+    {
+      "id": 7,
+      "title": "Mega Stacker Rodeio 4.0",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 49.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/300x270_4.0.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mega Stacker Atômico 2.0",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 29.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Mobile-300x270px-01.png"
+    },
+    {
+      "id": 9,
+      "title": "Mega Stacker Atômico 3.0",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 39.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Mobile-300x270px-02.png"
+    }
+
+  ]
+}

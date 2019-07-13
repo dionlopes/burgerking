@@ -49,4 +49,10 @@ export const MenuItem = styled(NavLink).attrs({
     border-right: 6px solid #ff6e2f;
     padding-left: 6px;
   }
+
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;

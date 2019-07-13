@@ -14,23 +14,24 @@ export default function Menu() {
       <MenuTitle>
         <h1>Menu</h1>
       </MenuTitle>
-      <MenuItem>
+
+      <MenuItem exact to="/">
         <img src={Hamburgers} alt="Hamburgers" />
         <p>Hamburgers</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem to="/combos">
         <img src={Combos} alt="Combos" />
         <p>Combos</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem to="/saladas">
         <img src={Saladas} alt="Saladas" />
         <p>Saladas</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem to="/bebidas">
         <img src={Bebidas} alt="Bebidas" />
         <p>Bebidas</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem to="/sobremesas">
         <img src={Sobremesas} alt="Sobremesas" />
         <p>Sobremesas</p>
       </MenuItem>

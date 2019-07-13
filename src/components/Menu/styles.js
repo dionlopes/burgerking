@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
   display: flex;
@@ -22,10 +23,16 @@ export const MenuTitle = styled.div`
   }
 `;
 
-export const MenuItem = styled.div`
+const activeClassName = 'active';
+
+export const MenuItem = styled(NavLink).attrs({
+  activeClassName,
+})`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  text-decoration: none;
 
   margin: 15px 0px;
 
@@ -36,5 +43,10 @@ export const MenuItem = styled.div`
   p {
     font-size: 11px;
     color: #7b7b7b;
+  }
+
+  &.${activeClassName} {
+    border-right: 5px solid #ff6e2f;
+    padding-left: 5px;
   }
 `;

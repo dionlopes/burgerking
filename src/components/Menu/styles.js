@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   width: 160px;
   padding: 15px 0;
-  margin-top: 50px;
+  margin-top: 67px;
 
   background: #fff;
 `;

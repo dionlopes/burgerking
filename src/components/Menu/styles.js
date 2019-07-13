@@ -5,9 +5,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  height: 90vh;
+  height: 89vh;
   width: 130px;
   padding: 15px 0;
+  margin-top: 50px;
 
   background: #fff;
 `;
@@ -46,7 +47,7 @@ export const MenuItem = styled(NavLink).attrs({
   }
 
   &.${activeClassName} {
-    border-right: 5px solid #ff6e2f;
-    padding-left: 5px;
+    border-right: 6px solid #ff6e2f;
+    padding-left: 6px;
   }
 `;

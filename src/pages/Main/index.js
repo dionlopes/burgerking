@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
+import { formatPrice } from '../../util/format';
 
 import { Container, Products, CategoryTitle } from './styles';
 
@@ -11,7 +12,13 @@ export default function Main() {
   useEffect(() => {
     async function loadProducts() {
       const response = await api.get('/hamburgers');
-      setProducts(response.data);
+
+      const data = response.data.map(product => ({
+        ...product,
+        priceFormatted: formatPrice(product.price),
+      }));
+
+      setProducts(data);
     }
 
     loadProducts();

@@ -8,20 +8,15 @@ import {
   ProductDescription,
 } from './styles';
 
-export default function Product(props) {
-  const { product } = props;
-
+export default function Product({ product }) {
   return (
     <Container>
       <ProductImage>
-        <img
-          src="http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BigKing_thumb_0.png"
-          alt="Big King XL"
-        />
+        <img src={product.image} alt={product.title} />
       </ProductImage>
 
       <ProductTitle>{product.title}</ProductTitle>
-      <ProductPrice>R$ {product.price}</ProductPrice>
+      <ProductPrice>{product.priceFormatted}</ProductPrice>
       <ProductDescription>{product.description}</ProductDescription>
     </Container>
   );

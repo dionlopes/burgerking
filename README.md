@@ -1,11 +1,11 @@
 
 <h1 align="center">
-    React RocketShoes
+    React Burger King
 </h1>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>
 </p>
 
 ![App Screenshot](https://raw.githubusercontent.com/dionlopes/burgerking/master/public/burgerking.png)

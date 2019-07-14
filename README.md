@@ -1,4 +1,3 @@
-
 <h1 align="center">
     React Burger King
 </h1>
@@ -9,6 +8,11 @@
 </p>
 
 ![App Screenshot](https://raw.githubusercontent.com/dionlopes/burgerking/master/public/burgerking.png)
+<p align="center">
+  <a href="https://reactburgerking.netlify.com/" target="_blank">
+    <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
+  </a>
+</p>
 
 ## :rocket: Technologies
 

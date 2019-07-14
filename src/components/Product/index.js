@@ -8,7 +8,9 @@ import {
   ProductDescription,
 } from './styles';
 
-export default function Product() {
+export default function Product(props) {
+  const { product } = props;
+
   return (
     <Container>
       <ProductImage>
@@ -18,12 +20,9 @@ export default function Product() {
         />
       </ProductImage>
 
-      <ProductTitle>Big King XL</ProductTitle>
-      <ProductPrice>R$ 29,90</ProductPrice>
-      <ProductDescription>
-        Pão, hamburger bovino, picles, tomate, queijo, alface com maionese
-        caseira verde.
-      </ProductDescription>
+      <ProductTitle>{product.title}</ProductTitle>
+      <ProductPrice>R$ {product.price}</ProductPrice>
+      <ProductDescription>{product.description}</ProductDescription>
     </Container>
   );
 }

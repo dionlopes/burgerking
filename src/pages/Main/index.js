@@ -3,17 +3,21 @@ import PropTypes from 'prop-types';
 import api from '../../services/api';
 import { formatPrice } from '../../util/format';
 
-import { Container, Products, CategoryTitle } from './styles';
+import { Container, Products, CategoryTitle, Loading } from './styles';
+
+import logo from '../../assets/images/logo.svg';
 
 import ProductItem from '../../components/Product';
 
 export default function Main({ match }) {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const categoryName = match.params.id || 'hamburgers';
 
   useEffect(() => {
     async function loadProducts() {
+      setLoading(true);
       const response = await api.get(`/${categoryName}`);
 
       const data = response.data.map(product => ({
@@ -21,6 +25,7 @@ export default function Main({ match }) {
         priceFormatted: formatPrice(product.price),
       }));
 
+      setLoading(false);
       setProducts(data);
     }
 
@@ -28,14 +33,22 @@ export default function Main({ match }) {
   }, [categoryName]);
 
   return (
-    <Container>
-      <CategoryTitle>{categoryName}</CategoryTitle>
-      <Products>
-        {products.map(product => (
-          <ProductItem key={product.id} product={product} />
-        ))}
-      </Products>
-    </Container>
+    <>
+      {loading ? (
+        <Loading>
+          <img src={logo} alt="Burger King" />
+        </Loading>
+      ) : (
+        <Container>
+          <CategoryTitle>{categoryName}</CategoryTitle>
+          <Products>
+            {products.map(product => (
+              <ProductItem key={product.id} product={product} />
+            ))}
+          </Products>
+        </Container>
+      )}
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import {
   Container,
@@ -21,3 +22,12 @@ export default function Product({ product }) {
     </Container>
   );
 }
+
+Product.propTypes = {
+  product: PropTypes.shape({
+    title: PropTypes.string,
+    image: PropTypes.string,
+    priceFormatted: PropTypes.string,
+    description: PropTypes.string,
+  }).isRequired,
+};

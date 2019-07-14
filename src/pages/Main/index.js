@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import api from '../../services/api';
 import { formatPrice } from '../../util/format';
 
@@ -37,3 +38,11 @@ export default function Main({ match }) {
     </Container>
   );
 }
+
+Main.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      id: PropTypes.string,
+    }),
+  }).isRequired,
+};

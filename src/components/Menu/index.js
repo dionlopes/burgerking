@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, MenuItem, MenuTitle } from './styles';
 
 import Hamburgers from '../../assets/images/hamburgers.png';
-import Combos from '../../assets/images/combo.png';
+import Acompanhamentos from '../../assets/images/acompanhamentos.jpg';
 import Saladas from '../../assets/images/saladas.png';
 import Bebidas from '../../assets/images/bebidas.png';
 import Sobremesas from '../../assets/images/sobremesas.png';
@@ -19,9 +19,9 @@ export default function Menu() {
         <img src={Hamburgers} alt="Hamburgers" />
         <p>Hamburgers</p>
       </MenuItem>
-      <MenuItem to="/combos">
-        <img src={Combos} alt="Combos" />
-        <p>Combos</p>
+      <MenuItem to="/acompanhamentos">
+        <img src={Acompanhamentos} alt="Acompanhamentos" />
+        <p>Acompanhamentos</p>
       </MenuItem>
       <MenuItem to="/saladas">
         <img src={Saladas} alt="Saladas" />

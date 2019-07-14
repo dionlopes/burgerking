@@ -5,8 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 160px;
-  padding: 15px 0;
+  min-width: 160px;
   margin-top: 67px;
 
   background: #fff;
@@ -17,6 +16,7 @@ export const MenuTitle = styled.div`
   justify-content: center;
 
   h1 {
+    margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
     color: #ff6e2f;
@@ -33,7 +33,7 @@ export const MenuItem = styled(NavLink).attrs({
   align-items: center;
 
   text-decoration: none;
-
+  padding: 0px 30px;
   margin: 15px 0px;
 
   img {
@@ -47,7 +47,7 @@ export const MenuItem = styled(NavLink).attrs({
 
   &.${activeClassName} {
     border-right: 6px solid #ff6e2f;
-    padding-left: 6px;
+    padding: 0px 8px 0px 14px;
   }
 
   transition: opacity 0.3s;

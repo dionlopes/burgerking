@@ -64,5 +64,76 @@
       "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Mobile-300x270px-02.png"
     }
 
+  ],
+  "acompanhamentos": [
+    {
+      "id": 1,
+      "title": "Balde de Batata",
+      "description": "Nossas crocantes e irresistíveis batatas fritas agora na versão balde! Imagem meramente ilustrativa.",
+      "price": 9.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BK_Web_FRITAS_300x270px.png"
+    },
+    {
+      "id": 2,
+      "title": "Bata Frita",
+      "description": "Crocantes e irresistíveis, nossas batatas fritas são servidas sempre levemente salgadas e em três tamanhos diferentes: pequeno, médio e grande. Estas delícias são o acompanhamento perfeito para o seu sanduíche perfeito. Imagem meramente ilustrativa.",
+      "price": 9.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BatataFrita_thumb.png"
+    }
+  ],
+  "saladas": [
+    {
+      "id": 1,
+      "title": "Veggie Burger",
+      "description": "Pão integral, um delicioso e suculento empanado super crocante, feito de batata e champignon, recheado com shimeji, shitake e muito queijo!",
+      "price": 29.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BK_Web_VeggieBurguer_thumb.png"
+    },
+    {
+      "id": 2,
+      "title": "Levíssima",
+      "description": "Pão, hamburger bovino, picles, tomate, queijo, alface com maionese caseira verde.",
+      "price": 19.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/Levissima_thumb.png"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "title": "Guaraná Antarctica",
+      "description": "Um refrigerante geladinho na medida certa para te refrescar e acompanhar seu sanduíche preferido.",
+      "price": 5.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/BK_Web_Guaran%C3%A1_300x270px_0.png"
+    },
+    {
+      "id": 2,
+      "title": "H20H! 500ml",
+      "description": "Quer mais leveza no seu pedido? Você pode escolher 2 refrescantes sabores de H2OH!",
+      "price": 3.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/H2O_thumb.png"
+    },
+    {
+      "id": 3,
+      "title": "Lipton 340ml",
+      "description": "Gelado e saboroso, uma escolha excelente para quem não quer ou não pode tomar refrigerantes e sucos.",
+      "price": 5.9,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/IceTeaLipton_thumb.png"
+    }
+  ],
+  "sobremesas": [
+    {
+      "id": 1,
+      "title": "Casquinha",
+      "description": "Deliciosa sobremesa gelada servida numa casquinha sempre fresquinha e crocante. Sabores: creme, doce de leite, chocolate ou misto.",
+      "price": 2.0,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/300x270px%20Casquinha%20Normal.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Casquinhas Recheadas",
+      "description": "Nossa família de casquinhas recheadas acabou de ganhar mais uma combinação pra fazer inveja pra qualquer um: Casquinha Recheada com muito Doce de Leite e sorvete de Doce de Leite..",
+      "price": 2.8,
+      "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.br/files/300x270px-Casquinha-Recheada_0.png"
+    }
   ]
 }

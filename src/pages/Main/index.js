@@ -6,12 +6,14 @@ import { Container, Products, CategoryTitle } from './styles';
 
 import ProductItem from '../../components/Product';
 
-export default function Main() {
+export default function Main({ match }) {
   const [products, setProducts] = useState([]);
+
+  const categoryName = match.params.id || 'hamburgers';
 
   useEffect(() => {
     async function loadProducts() {
-      const response = await api.get('/hamburgers');
+      const response = await api.get(`/${categoryName}`);
 
       const data = response.data.map(product => ({
         ...product,
@@ -22,11 +24,11 @@ export default function Main() {
     }
 
     loadProducts();
-  }, []);
+  }, [categoryName]);
 
   return (
     <Container>
-      <CategoryTitle>Hamburgers</CategoryTitle>
+      <CategoryTitle>{categoryName}</CategoryTitle>
       <Products>
         {products.map(product => (
           <ProductItem key={product.id} product={product} />
